@@ -13,7 +13,7 @@ const LoginCard = () => {
   return (
     <Card className="w-full max-w-sm space-y-4 rounded-lg bg-white p-8 shadow-lg">
       <CardHeader>
-        <h1 className="text-2xl font-bold">Bem-vindo à Mustache Barbearia</h1>
+        <h1 className="text-2xl font-bold">Bem-vindo à Betim Barbershop</h1>
       </CardHeader>
       <CardContent>
         <Button
