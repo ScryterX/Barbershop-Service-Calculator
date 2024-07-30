@@ -40,9 +40,24 @@ interface CustomTableMeta {
 }
 
 const data: Product[] = [
-  { id: "1", name: "Minoxidil", price: 100, clubDiscountPercentage: 10 },
-  { id: "2", name: "Sabonete Íntimo", price: 20, clubDiscountPercentage: 5 },
-  { id: "3", name: "Shampoo", price: 30, clubDiscountPercentage: 15 },
+  { id: "1", name: "Shampoo Minoxidil", price: 30, clubDiscountPercentage: 10 },
+  { id: "2", name: "Shampoo Anticaspa", price: 30, clubDiscountPercentage: 10 },
+  { id: "3", name: "Pomada Incolor", price: 30, clubDiscountPercentage: 10 },
+  { id: "4", name: "Pomada Caramelo", price: 30, clubDiscountPercentage: 10 },
+  { id: "5", name: "Pomada Black", price: 40, clubDiscountPercentage: 10 },
+  { id: "6", name: "Pomada Alfa", price: 40, clubDiscountPercentage: 10 },
+  { id: "7", name: "Pomada Freak", price: 60, clubDiscountPercentage: 10 },
+  { id: "8", name: "Pomada Fiber", price: 60, clubDiscountPercentage: 10 },
+  { id: "8", name: "Pomada em pó", price: 60, clubDiscountPercentage: 10 },
+  { id: "9", name: "Óleo p/ Barba", price: 40, clubDiscountPercentage: 10 },
+  { id: "10", name: "Desodorante", price: 40, clubDiscountPercentage: 10 },
+  { id: "11", name: "Leave-in", price: 60, clubDiscountPercentage: 10 },
+  { id: "12", name: "Esfoliante", price: 60, clubDiscountPercentage: 10 },
+  { id: "13", name: "Minoxidil", price: 60, clubDiscountPercentage: 10 },
+  { id: "14", name: "Balm Barba", price: 40, clubDiscountPercentage: 10 },
+  { id: "15", name: "Black Mask", price: 35, clubDiscountPercentage: 10 },
+  { id: "16", name: "Aromatizador", price: 15, clubDiscountPercentage: 10 },
+  { id: "17", name: "Pó multiuso", price: 40, clubDiscountPercentage: 10 },
 ];
 
 export type Product = {

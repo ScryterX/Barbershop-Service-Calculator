@@ -132,6 +132,36 @@ const data: Service[] = [
     price: 10,
     clubDiscountPercentage: 10,
   },
+  {
+    id: "17",
+    name: "Sombrancelha (EXTRA)",
+    price: 10,
+    clubDiscountPercentage: 10,
+  },
+  {
+    id: "18",
+    name: "Hidratação Cabelo e Barba (EXTRA)",
+    price: 20,
+    clubDiscountPercentage: 10,
+  },
+  {
+    id: "19",
+    name: "Extração cera do nariz e ouvido (EXTRA)",
+    price: 10,
+    clubDiscountPercentage: 10,
+  },
+  {
+    id: "20",
+    name: "Esfoliação facial (EXTRA)",
+    price: 10,
+    clubDiscountPercentage: 10,
+  },
+  {
+    id: "21",
+    name: "Extração de cravos mask negra (EXTRA)",
+    price: 10,
+    clubDiscountPercentage: 10,
+  },
 ];
 
 export type Service = {
