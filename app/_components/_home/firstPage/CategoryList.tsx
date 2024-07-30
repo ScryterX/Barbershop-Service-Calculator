@@ -1,3 +1,4 @@
+"use client";
 import {
   Accordion,
   AccordionContent,
@@ -5,10 +6,13 @@ import {
   AccordionTrigger,
 } from "@/app/_components/ui/accordion";
 import ServicesCategory from "./services";
+import { ProductsList } from "./data/ProductList";
+import { PubProductsList } from "./data/PubProductList";
 
 export function CategoryList() {
+  //<Accordion type="single" collapsible className="w-full">
   return (
-    <Accordion type="single" collapsible className="w-full">
+    <Accordion type="multiple" className="w-full">
       <AccordionItem value="item-1">
         <AccordionTrigger>Serviços</AccordionTrigger>
         <AccordionContent>
@@ -18,15 +22,13 @@ export function CategoryList() {
       <AccordionItem value="item-2">
         <AccordionTrigger>Produtos</AccordionTrigger>
         <AccordionContent>
-          Yes. It comes with default styles that matches the other
-          components&apos; aesthetic.
+          <ProductsList />
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
         <AccordionTrigger>Bar e cozinha</AccordionTrigger>
         <AccordionContent>
-          Yes. It&apos;s animated by default, but you can disable it if you
-          prefer.
+          <PubProductsList />
         </AccordionContent>
       </AccordionItem>
     </Accordion>
