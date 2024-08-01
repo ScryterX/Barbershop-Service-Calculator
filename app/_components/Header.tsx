@@ -1,11 +1,11 @@
 "use client";
 import {
-  HomeIcon,
+  // HomeIcon,
   LogInIcon,
   LogOutIcon,
   MenuIcon,
-  ScrollTextIcon,
-  StarIcon,
+  // ScrollTextIcon,
+  // StarIcon,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -71,7 +71,7 @@ const Header = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="py-6">
+                  {/* <div className="py-6">
                     <Separator className="color" />
                   </div>
 
@@ -104,7 +104,7 @@ const Header = () => {
                         <span className="block">Restaurantes favoritos</span>
                       </Link>
                     </Button>
-                  </div>
+                  </div> */}
 
                   <div className="py-6">
                     <Separator />
